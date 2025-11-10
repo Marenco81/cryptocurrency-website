@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    font-size: 62.5%;
 }
 
 .container{
@@ -33,21 +34,56 @@
                 & a{
                     text-decoration: none;
                     color: #fff;
+                    font-size: 1.5rem;
                 }
             }
         }
-        & .btn{
+        .btn{
             color: #fff;
             text-decoration: none;
+            font-size: 1.5rem;
             border: 1px solid #fff;
             padding: 10px 30px;
             border-radius: 20px;
             
         }
         & .btn:hover{
-                background-color: #fff;
+                background: linear-gradient(to right, #f5b645 , #da4da4);
                 color: black;
             }
     }
+    & .content{
+        margin-top: 12%;
+        & h1{
+            font-size: 8.8rem;
+            margin-bottom: 15px;
+            & span{
+                background: linear-gradient(to right, #f5b645 , #da4da4);
+                background-clip: text;
+                color: transparent;
+                font-size: 8.8rem;
+            }
+        }
+        & p{
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+        }
+        .btn{
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+            border: 1px solid #fff;
+            padding: 10px 30px;
+            border-radius: 20px;
+            
+        }
+        & .btn:hover{
+                background: linear-gradient(to right, #f5b645 , #da4da4);
+                color: black;
+            }
+    
+    }
 }
+
+
 
