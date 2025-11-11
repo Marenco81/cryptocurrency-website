@@ -36,7 +36,15 @@
                     color: #fff;
                     font-size: 1.5rem;
                 }
+                & a:hover{
+                    background: linear-gradient(to right, #f5b645 , #da4da4);
+                    background-clip: text;
+                    color: transparent;
+                }
             }
+            & li:hover{
+                    transform: scale(1.1);
+                }
         }
         .btn{
             color: #fff;
@@ -53,7 +61,7 @@
             }
     }
     & .content{
-        margin-top: 12%;
+        margin-top: 5%;
         & h1{
             font-size: 8.8rem;
             margin-bottom: 15px;
@@ -75,6 +83,7 @@
             border: 1px solid #fff;
             padding: 10px 30px;
             border-radius: 20px;
+            margin-bottom: 5%;
             
         }
         & .btn:hover{
@@ -82,6 +91,35 @@
                 color: black;
             }
     
+    }
+    & .coin-list{
+        position: absolute;
+        right: 8%;
+        bottom: 50px;
+        display: flex ;
+        align-items: center;
+        & .coin{
+            display: flex;
+            align-items: center;
+            font-size: 1.4rem;
+            margin: 0 15px;
+            color: #f5b645;
+            border: 1px solid #fff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            & img{
+                width: 40px;
+                margin-right: 10px;
+            }
+            & h3{
+                color: #fff;
+                font-size: 1.4rem;
+                margin-bottom: 5px;
+            }
+            & p{
+                font-size: 1.4rem;
+            }
+        }
     }
 }
 
