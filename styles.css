@@ -113,11 +113,19 @@
             }
             & h3{
                 color: #fff;
-                font-size: 1.4rem;
+                font-size: 1.5rem;
+                font-weight: 500;
                 margin-bottom: 5px;
             }
+            & .price{
+                font-size: 1.5rem;
+                background: linear-gradient(to right, #f5b645 , #da4da4);
+                background-clip: text;
+                color: transparent;
+
+            }
             & p{
-                font-size: 1.4rem;
+                font-size: 1.9rem;
             }
         }
     }

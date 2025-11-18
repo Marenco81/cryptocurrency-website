@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Markets</title>
     <link rel="stylesheet" href="/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -29,24 +30,24 @@
             <div class="coin">
                 <img src="/assets/bitcoin.png" alt="bitcoin image">
                 <div>
-                    <h3>$00</h3>
+                    <h3>$ <span id="bitcoin" class="price"></span></h3>
                     <p>Bitcoin</p>
                 </div>
             </div>
 
             <div class="coin">
-                <img src="/assets/ethereum.png" alt="bitcoin image">
+                <img src="/assets/ethereum.png" alt="ethereum image">
                 <div>
-                    <h3>$00</h3>
+                    <h3>$ <span id="ethereum" class="price"></span></h3>
                     <p>Ethereum</p>
                 </div>
             </div>
 
             <div class="coin">
-                <img src="/assets/dogecoin.png" alt="bitcoin image">
+                <img src="/assets/dogecoin.png" alt="dogecoin image">
                 <div>
-                    <h3>$00</h3>
-                    <p>Dodgecoin</p>
+                    <h3>$ <span id="dogecoin" class="price"></span></h3>
+                    <p>Dogecoin</p>
                 </div>
             </div>
         </div>
